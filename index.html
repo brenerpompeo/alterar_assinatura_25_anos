@@ -58,12 +58,9 @@
             </div>
         </section>
 
-        <!-- Seletor de Plataforma (Código Omitido por Brevidade - Manteve-se igual à versão anterior) -->
+        <!-- Seletor de Plataforma e Conteúdo das Abas -->
         <section class="mb-10">
-             <!-- ... Código das abas e conteúdo das abas Desktop, Web, Mac, Mobile ... -->
-             <!-- O conteúdo dentro das abas permanece o mesmo da versão anterior, -->
-             <!-- ensinando a inserir a imagem PNG manualmente. -->
-             <div class="border-b border-gray-200 mb-6">
+            <div class="border-b border-gray-200 mb-6">
                 <h2 class="text-2xl font-semibold text-pacto-blue mb-4">Selecione sua Plataforma Outlook</h2>
                 <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="platform-tabs" role="tablist">
                     <li class="mr-2" role="presentation">
@@ -93,11 +90,10 @@
                 </ul>
             </div>
             <div id="platform-content">
-                 <!-- Conteúdo das abas Desktop, Web, Mac, Mobile (mantido da resposta anterior) -->
-                 <!-- Exemplo de como ficou o conteúdo da aba Desktop -->
+                 <!-- Aba Desktop -->
                  <div class="block" id="desktop" role="tabpanel">
                     <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-200">
-                         <!-- ... (Passos 1 e 2 como antes) ... -->
+                         <!-- Passos 1 e 2 como antes -->
                          <div class="mb-6">
                              <div class="flex items-center mb-4">
                                  <div class="w-8 h-8 flex items-center justify-center rounded-full bg-pacto-blue-lighter/50 text-pacto-blue mr-3">
@@ -135,11 +131,11 @@
                             <div class="ml-11">
                                 <p class="mb-3">Na caixa "Editar assinatura":</p>
                                 <ol class="space-y-3 mb-4 pl-5 list-decimal">
-                                    <li>**Baixe o logo** usando o link na seção "Download" abaixo e salve o arquivo PNG.</li>
-                                    <li>Posicione o cursor **exatamente abaixo** do conteúdo da sua assinatura atual (nome, cargo, etc.). Use a seta para baixo do teclado para garantir o posicionamento correto.</li>
+                                    <li><strong>Baixe o logo</strong> usando o link na seção "Download" abaixo e salve o arquivo PNG.</li>
+                                    <li>Posicione o cursor <strong>exatamente abaixo</strong> do conteúdo da sua assinatura atual (nome, cargo, etc.). Use a seta para baixo do teclado para garantir o posicionamento correto.</li>
                                     <li>Clique no botão <span class="bg-gray-100 px-1 py-0.5 rounded text-sm">Inserir Imagem</span> (geralmente um ícone de paisagem <i data-lucide="image" class="inline w-4 h-4 mx-1"></i>).</li>
                                     <li>Navegue até o local onde você salvou o logo de 25 anos (arquivo PNG) e selecione-o. Clique em <span class="bg-gray-100 px-1 py-0.5 rounded text-sm">Inserir</span>.</li>
-                                    <li>O logo aparecerá, provavelmente grande. **Clique sobre o logo inserido**.</li>
+                                    <li>O logo aparecerá, provavelmente grande. <strong>Clique sobre o logo inserido</strong>.</li>
                                     <li>Opções de tamanho podem aparecer. Selecione <span class="bg-amber-100 px-1 py-0.5 rounded text-sm text-amber-900 font-medium">"Grande" (Large)</span> ou um tamanho similar que se ajuste bem (aprox. 150-200 pixels de largura). <strong class="text-red-600">NÃO selecione "Tamanho Original"</strong>. Se as opções não aparecerem, pode ser necessário redimensionar em um editor de imagens antes de inserir.</li>
                                     <li>Verifique se o logo ficou alinhado corretamente abaixo do texto.</li>
                                 </ol>
@@ -173,15 +169,211 @@
                         </div>
                     </div>
                  </div>
-                 <!-- ... (Conteúdo das abas Web, Mac, Mobile como antes) ... -->
+
+                 <!-- Aba Web -->
                  <div class="hidden" id="web" role="tabpanel">
-                     <!-- Conteúdo Web atualizado como na resposta anterior -->
+                      <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-200">
+                         <div class="mb-6">
+                             <div class="flex items-center mb-4">
+                                 <div class="w-8 h-8 flex items-center justify-center rounded-full bg-pacto-blue-lighter/50 text-pacto-blue mr-3">
+                                     <span class="font-geist-mono font-semibold">1</span>
+                                 </div>
+                                 <h3 class="text-xl font-semibold text-pacto-blue">Acesse o Outlook na Web</h3>
+                             </div>
+                             <div class="ml-11">
+                                 <p class="mb-3">Acesse <a href="https://outlook.office.com" target="_blank" class="text-pacto-blue hover:underline">outlook.office.com</a> ou <a href="https://outlook.live.com" target="_blank" class="text-pacto-blue hover:underline">outlook.live.com</a> e faça login.</p>
+                             </div>
+                         </div>
+
+                         <div class="mb-6">
+                             <div class="flex items-center mb-4">
+                                 <div class="w-8 h-8 flex items-center justify-center rounded-full bg-pacto-blue-lighter/50 text-pacto-blue mr-3">
+                                     <span class="font-geist-mono font-semibold">2</span>
+                                 </div>
+                                 <h3 class="text-xl font-semibold text-pacto-blue">Abra as Configurações de Assinatura</h3>
+                             </div>
+                             <div class="ml-11">
+                                 <p class="mb-3">Clique no ícone de engrenagem <i data-lucide="settings" class="inline w-4 h-4"></i> (Configurações) no canto superior direito.</p>
+                                 <p class="mb-3">No painel que abre, procure por "Assinatura" ou vá para <span class="bg-gray-100 px-1 py-0.5 rounded text-sm">Email</span> > <span class="bg-gray-100 px-1 py-0.5 rounded text-sm">Redigir e responder</span>.</p>
+                             </div>
+                         </div>
+
+                         <div class="mb-6">
+                             <div class="flex items-center mb-4">
+                                 <div class="w-8 h-8 flex items-center justify-center rounded-full bg-pacto-blue-lighter/50 text-pacto-blue mr-3">
+                                     <span class="font-geist-mono font-semibold">3</span>
+                                 </div>
+                                 <h3 class="text-xl font-semibold text-pacto-blue">Adicione o Logo Comemorativo (Arquivo PNG)</h3>
+                             </div>
+                             <div class="ml-11">
+                                 <p class="mb-3">Na caixa de edição de assinatura:</p>
+                                 <ol class="space-y-3 mb-4 pl-5 list-decimal">
+                                     <li><strong>Baixe o logo</strong> primeiro (veja seção "Download").</li>
+                                     <li>Posicione o cursor <strong>exatamente abaixo</strong> do conteúdo da sua assinatura atual.</li>
+                                     <li>Clique no botão <span class="bg-gray-100 px-1 py-0.5 rounded text-sm">Inserir imagens embutidas</span> (ícone de paisagem <i data-lucide="image" class="inline w-4 h-4 mx-1"></i>).</li>
+                                     <li>Faça o upload do arquivo PNG do logo de 25 anos.</li>
+                                     <li>O logo aparecerá grande. <strong>Clique sobre o logo inserido</strong>.</li>
+                                     <li>Opções de tamanho aparecerão. Selecione <span class="bg-amber-100 px-1 py-0.5 rounded text-sm text-amber-900 font-medium">"Grande" (Large)</span> ou um tamanho apropriado. <strong class="text-red-600">NÃO use "Tamanho Original"</strong>.</li>
+                                     <li>Verifique o alinhamento.</li>
+                                 </ol>
+                                 <div class="bg-pacto-blue-lighter/30 border border-pacto-blue-light rounded-lg p-4 mb-4">
+                                     <div class="flex">
+                                          <div class="flex-shrink-0 mr-3">
+                                             <i data-lucide="info" class="h-5 w-5 text-pacto-blue-light"></i>
+                                         </div>
+                                         <div>
+                                             <p class="text-sm text-pacto-blue font-medium">Sincronização</p>
+                                             <p class="text-sm text-pacto-blue/90">Assinaturas criadas aqui podem sincronizar com o "Novo Outlook" desktop, mas não com o Outlook Clássico ou Mobile.</p>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+
+                         <div>
+                             <div class="flex items-center mb-4">
+                                 <div class="w-8 h-8 flex items-center justify-center rounded-full bg-pacto-blue-lighter/50 text-pacto-blue mr-3">
+                                     <span class="font-geist-mono font-semibold">4</span>
+                                 </div>
+                                 <h3 class="text-xl font-semibold text-pacto-blue">Salve as Alterações</h3>
+                             </div>
+                             <div class="ml-11">
+                                 <p class="mb-4">Marque as caixas de seleção para incluir a assinatura automaticamente em novas mensagens e/ou respostas/encaminhamentos, se desejar.</p>
+                                 <p>Clique no botão <span class="bg-gray-100 px-1 py-0.5 rounded text-sm">Salvar</span>.</p>
+                             </div>
+                         </div>
+                     </div>
                  </div>
+
+                 <!-- Aba Mac -->
                  <div class="hidden" id="mac" role="tabpanel">
-                     <!-- Conteúdo Mac atualizado como na resposta anterior -->
+                      <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-200">
+                         <div class="mb-6">
+                              <div class="flex items-center mb-4">
+                                 <div class="w-8 h-8 flex items-center justify-center rounded-full bg-pacto-blue-lighter/50 text-pacto-blue mr-3">
+                                     <span class="font-geist-mono font-semibold">1</span>
+                                 </div>
+                                 <h3 class="text-xl font-semibold text-pacto-blue">Abra as Preferências/Configurações</h3>
+                             </div>
+                             <div class="ml-11">
+                                 <p class="mb-3">Com o Outlook para Mac aberto, vá ao menu superior:</p>
+                                 <p class="text-gray-600"><span class="bg-gray-100 px-1 py-0.5 rounded text-sm">Outlook</span> > <span class="bg-gray-100 px-1 py-0.5 rounded text-sm">Preferências...</span> (ou <span class="bg-gray-100 px-1 py-0.5 rounded text-sm">Configurações...</span> em versões mais recentes).</p>
+                             </div>
+                         </div>
+
+                          <div class="mb-6">
+                              <div class="flex items-center mb-4">
+                                 <div class="w-8 h-8 flex items-center justify-center rounded-full bg-pacto-blue-lighter/50 text-pacto-blue mr-3">
+                                     <span class="font-geist-mono font-semibold">2</span>
+                                 </div>
+                                 <h3 class="text-xl font-semibold text-pacto-blue">Acesse Assinaturas</h3>
+                             </div>
+                             <div class="ml-11">
+                                 <p>Na janela de Preferências/Configurações, clique em <span class="bg-gray-100 px-1 py-0.5 rounded text-sm">Assinaturas</span>.</p>
+                             </div>
+                         </div>
+
+                         <div class="mb-6">
+                              <div class="flex items-center mb-4">
+                                 <div class="w-8 h-8 flex items-center justify-center rounded-full bg-pacto-blue-lighter/50 text-pacto-blue mr-3">
+                                     <span class="font-geist-mono font-semibold">3</span>
+                                 </div>
+                                 <h3 class="text-xl font-semibold text-pacto-blue">Adicione o Logo Comemorativo (Arquivo PNG)</h3>
+                             </div>
+                             <div class="ml-11">
+                                 <p class="mb-3"><strong>Baixe o logo</strong> primeiro (veja seção "Download").</p>
+                                 <p class="mb-3">Selecione a assinatura a editar ou clique no <span class="bg-gray-100 px-1 py-0.5 rounded text-sm">+</span> para criar uma nova.</p>
+                                 <p class="mb-3">Na caixa de edição à direita:</p>
+                                 <ol class="space-y-3 mb-4 pl-5 list-decimal">
+                                     <li>Posicione o cursor <strong>exatamente abaixo</strong> do conteúdo existente.</li>
+                                     <li>Arraste o arquivo PNG do logo de 25 anos para dentro da caixa de edição OU use o menu <span class="bg-gray-100 px-1 py-0.5 rounded text-sm">Formato</span> > <span class="bg-gray-100 px-1 py-0.5 rounded text-sm">Imagem</span> > <span class="bg-gray-100 px-1 py-0.5 rounded text-sm">Do Arquivo...</span></li>
+                                     <li>O logo aparecerá. <strong>Clique sobre o logo inserido</strong>.</li>
+                                     <li>Pode ser necessário redimensionar manualmente arrastando as bordas ou usando opções de formatação de imagem, se disponíveis. Busque um tamanho visualmente similar ao "Grande" das outras plataformas. <strong class="text-red-600">Evite deixá-lo no tamanho original se for muito grande</strong>.</li>
+                                     <li>Ajuste o alinhamento se necessário.</li>
+                                 </ol>
+                             </div>
+                         </div>
+
+                         <div>
+                             <div class="flex items-center mb-4">
+                                <div class="w-8 h-8 flex items-center justify-center rounded-full bg-pacto-blue-lighter/50 text-pacto-blue mr-3">
+                                     <span class="font-geist-mono font-semibold">4</span>
+                                 </div>
+                                 <h3 class="text-xl font-semibold text-pacto-blue">Salve e Defina Padrões</h3>
+                             </div>
+                             <div class="ml-11">
+                                 <p class="mb-4">As alterações geralmente são salvas automaticamente ao fechar a janela de Preferências. Certifique-se de que salvou (pode haver um botão Salvar em algumas versões).</p>
+                                 <p>Defina a assinatura padrão para Novas Mensagens e Respostas/Encaminhamentos para a conta desejada na parte inferior da janela de Assinaturas.</p>
+                             </div>
+                         </div>
+                     </div>
                  </div>
+
+                 <!-- Aba Mobile -->
                  <div class="hidden" id="mobile" role="tabpanel">
-                    <!-- Conteúdo Mobile atualizado como na resposta anterior -->
+                     <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-200">
+                         <div class="mb-6">
+                             <div class="flex items-center mb-4">
+                                <div class="w-8 h-8 flex items-center justify-center rounded-full bg-pacto-blue-lighter/50 text-pacto-blue mr-3">
+                                     <span class="font-geist-mono font-semibold">1</span>
+                                 </div>
+                                 <h3 class="text-xl font-semibold text-pacto-blue">Acesse as Configurações de Assinatura</h3>
+                             </div>
+                             <div class="ml-11">
+                                 <p class="mb-3">No app Outlook (iOS ou Android), toque no ícone da sua conta (canto superior esquerdo).</p>
+                                 <p class="mb-3">Toque no ícone de engrenagem <i data-lucide="settings" class="inline w-4 h-4"></i> (Configurações), geralmente na parte inferior.</p>
+                                 <p>Role até a seção "Email" e toque em <span class="bg-gray-100 px-1 py-0.5 rounded text-sm">Assinatura</span>.</p>
+                             </div>
+                         </div>
+
+                         <div class="mb-6">
+                              <div class="flex items-center mb-4">
+                                <div class="w-8 h-8 flex items-center justify-center rounded-full bg-pacto-blue-lighter/50 text-pacto-blue mr-3">
+                                     <span class="font-geist-mono font-semibold">2</span>
+                                 </div>
+                                 <h3 class="text-xl font-semibold text-pacto-blue">Limitações e Alternativa</h3>
+                             </div>
+                             <div class="ml-11">
+                                 <div class="bg-yellow-50 border border-yellow-300 rounded-lg p-4 mb-4">
+                                     <div class="flex">
+                                         <div class="flex-shrink-0 mr-3">
+                                             <i data-lucide="alert-triangle" class="h-5 w-5 text-yellow-500"></i>
+                                         </div>
+                                         <div>
+                                             <p class="text-sm text-yellow-800 font-medium">Não é possível adicionar imagens</p>
+                                             <p class="text-sm text-yellow-700">Os aplicativos móveis do Outlook geralmente <strong>não permitem</strong> a inserção de imagens (como o logo de 25 anos) nas assinaturas. As opções de formatação são muito limitadas (apenas texto).</p>
+                                         </div>
+                                     </div>
+                                 </div>
+                                 <p class="mb-3 text-gray-700"><strong>Alternativa:</strong> Você pode adicionar uma linha de texto simples celebrando os 25 anos abaixo da sua assinatura normal.</p>
+                                 <p class="mb-4 text-gray-600 italic">Exemplo: "Celebrando 25 Anos do Pacto Global da ONU"</p>
+                                 <p class="text-gray-600">Digite ou edite o texto da sua assinatura na caixa fornecida.</p>
+                              </div>
+                         </div>
+
+                         <div>
+                             <div class="flex items-center mb-4">
+                                 <div class="w-8 h-8 flex items-center justify-center rounded-full bg-pacto-blue-lighter/50 text-pacto-blue mr-3">
+                                     <span class="font-geist-mono font-semibold">3</span>
+                                 </div>
+                                 <h3 class="text-xl font-semibold text-pacto-blue">Salve as Alterações</h3>
+                             </div>
+                              <div class="ml-11">
+                                 <p class="mb-4">Após editar o texto, toque no botão de confirmação (✓) ou simplesmente volte para a tela anterior (geralmente salva automaticamente).</p>
+                                 <div class="bg-pacto-blue-lighter/30 border border-pacto-blue-light rounded-lg p-4">
+                                      <div class="flex">
+                                         <div class="flex-shrink-0 mr-3">
+                                             <i data-lucide="info" class="h-5 w-5 text-pacto-blue-light"></i>
+                                         </div>
+                                         <div>
+                                             <p class="text-sm text-pacto-blue font-medium">Assinatura Independente</p>
+                                             <p class="text-sm text-pacto-blue/90">Lembre-se: a assinatura configurada no celular é separada das assinaturas do desktop e da web. Você precisa configurá-la aqui mesmo que já tenha feito em outra plataforma.</p>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
                  </div>
             </div>
         </section>
@@ -190,12 +382,12 @@
         <section class="mb-12">
              <h2 class="text-2xl font-semibold text-pacto-blue mb-6">Alternativa: Copiar e Colar (Apenas Texto)</h2>
              <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-200">
-                 <p class="mb-4">Você pode copiar o modelo de texto abaixo, colar no editor de assinatura do seu Outlook (Desktop, Web ou Mac), editar com seus dados e, em seguida, **inserir o logo PNG manualmente** seguindo os passos da sua plataforma.</p>
+                 <p class="mb-4">Você pode copiar o modelo de texto abaixo, colar no editor de assinatura do seu Outlook (Desktop, Web ou Mac), editar com seus dados e, em seguida, <strong>inserir o logo PNG manualmente</strong> seguindo os passos da sua plataforma.</p>
 
                  <div class="border border-dashed border-gray-400 p-4 rounded-lg bg-gray-50 mb-6" id="copy-paste-block">
                      <p contenteditable="false" class="font-semibold select-all">Nome Sobrenome <span class="font-normal text-gray-600">(Pronomes)</span></p>
                      <p contenteditable="false" class="text-sm select-all">Cargo</p>
-                     <p contenteditable="false" class="text-sm select-all">Pacto Global da ONU - Rede Brasil</p>
+                     <p contenteditable="false" class="text-sm select-all">Pacto Global - Rede Brasil</p>
                      <p contenteditable="false" class="text-sm select-all">M: +55 XX YYYYY-YYYY</p>
                      <p contenteditable="false" class="text-sm select-all"><a href="mailto:seuemail@pactoglobal.org.br" class="text-pacto-blue hover:underline">seuemail@pactoglobal.org.br</a> | <a href="https://www.pactoglobal.org.br" target="_blank" class="text-pacto-blue hover:underline">www.pactoglobal.org.br</a></p>
                      <p contenteditable="false" class="text-sm select-all">
@@ -213,18 +405,16 @@
                      <li>Copie (Ctrl+C ou Cmd+C).</li>
                      <li>Vá para as configurações de assinatura no seu Outlook.</li>
                      <li>Cole (Ctrl+V ou Cmd+V) na caixa de edição.</li>
-                     <li>**Edite cuidadosamente** Nome, Sobrenome, Pronomes, Cargo, Telefone, Email e substitua os `[LINK_...]` pelos links corretos das redes sociais da Rede Brasil.</li>
-                     <li><strong class="text-red-600">IMPORTANTE:</strong> Após colar e editar o texto, siga os passos da sua plataforma (Desktop, Web ou Mac, Passo 3) para **inserir manualmente o arquivo PNG** do logo de 25 anos abaixo das informações.</li>
+                     <li><strong>Edite cuidadosamente</strong> Nome, Sobrenome, Pronomes, Cargo, Telefone, Email e substitua os `[LINK_...]` pelos links corretos das redes sociais da Rede Brasil.</li>
+                     <li><strong class="text-red-600">IMPORTANTE:</strong> Após colar e editar o texto, siga os passos da sua plataforma (Desktop, Web ou Mac, Passo 3) para <strong>inserir manually o arquivo PNG</strong> do logo de 25 anos abaixo das informações.</li>
                      <li>Salve as alterações.</li>
                  </ol>
 
                  <div class="mt-6 border-t pt-4">
-                    <p class="text-sm font-medium text-gray-800 mb-2">Exemplo Visual de Como Deve Ficar (Após Inserir o Logo):</p>
-                    <!-- Aqui usamos uma imagem normal para demonstração, se disponível publicamente -->
-                    <!-- Se não tiver URL público do logo 25 anos, remova ou substitua por descrição -->
+                    <p class="text-sm font-medium text-gray-800 mb-2">Exemplo Visual de Como Deve Ficar (Após Inserir o Logo Manualmente):</p>
                     <p class="font-semibold">Nome Sobrenome <span class="font-normal text-gray-600">(Pronomes)</span></p>
                     <p class="text-sm">Cargo</p>
-                    <p class="text-sm">Pacto Global da ONU - Rede Brasil</p>
+                    <p class="text-sm">Pacto Global - Rede Brasil</p>
                     <p class="text-sm">M: +55 XX YYYYY-YYYY</p>
                     <p class="text-sm"><a href="#" class="text-pacto-blue hover:underline">seuemail@pactoglobal.org.br</a> | <a href="#" target="_blank" class="text-pacto-blue hover:underline">www.pactoglobal.org.br</a></p>
                     <p class="text-sm">
@@ -233,12 +423,12 @@
                          <a href="#" target="_blank" class="text-pacto-blue hover:underline">LinkedIn</a> |
                          <a href="#" target="_blank" class="text-pacto-blue hover:underline">Twitter</a>
                      </p>
-                    <!-- Imagem de exemplo - SUBSTITUA 'URL_PUBLICO_LOGO_25_ANOS.png' pelo URL real se tiver -->
-                    <img src="URL_PUBLICO_LOGO_25_ANOS.png" alt="Logo 25 Anos - Exemplo Visual" style="width: 150px; height: auto; margin-top: 8px; border: 1px dashed #ccc;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-                    <p style="display:none; color:#888; font-style:italic;">[Logo 25 anos apareceria aqui]</p>
+                    <!-- Imagem de exemplo visual com URL ATUALIZADO -->
+                    <img src="https://www.pactoglobal.org.br/wp-content/uploads/2025/04/2025-Anniversary-Email-Signature-EN.png" alt="Exemplo Visual Assinatura com Logo 25 Anos" style="width: 180px; height: auto; margin-top: 8px;">
                  </div>
              </div>
         </section>
+
 
         <!-- Seção Download Logo Atualizada -->
         <section class="mb-12 text-center">
@@ -256,13 +446,12 @@
             </div>
         </section>
 
-        <!-- Seção FAQ (Código Omitido por Brevidade - Manteve-se igual à versão anterior) -->
-         <section class="mb-12">
-             <!-- ... Código do FAQ ... -->
-             <h2 class="text-2xl font-semibold text-pacto-blue mb-6">Perguntas Frequentes</h2>
-             <div class="bg-white rounded-lg shadow-sm border border-gray-200">
-                 <div class="divide-y divide-gray-200">
-                     <!-- ... (Itens do FAQ como antes) ... -->
+        <!-- Seção FAQ -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-semibold text-pacto-blue mb-6">Perguntas Frequentes</h2>
+            <div class="bg-white rounded-lg shadow-sm border border-gray-200">
+                <div class="divide-y divide-gray-200">
+                     <!-- FAQ Items -->
                      <div class="p-6 faq-item">
                          <button class="flex justify-between items-center w-full text-left" aria-expanded="false">
                              <h3 class="text-lg font-medium text-pacto-blue">Posso ter múltiplas assinaturas no Outlook?</h3>
@@ -279,7 +468,7 @@
                              <i data-lucide="chevron-down" class="w-5 h-5 text-gray-500 transform transition-transform faq-icon"></i>
                          </button>
                          <div class="mt-3 hidden faq-answer">
-                             <p class="text-gray-600">Clique novamente sobre o logo inserido no editor de assinatura. Verifique as opções de tamanho e certifique-se de ter selecionado "Grande" (ou um tamanho adequado, aprox. 150-200px de largura) e <strong class="text-red-600">NÃO</strong> "Tamanho Original". Se as opções de tamanho não aparecerem ou não funcionarem bem, pode ser mais seguro redimensionar o arquivo PNG em um editor de imagens simples (como Paint, Preview, etc.) para uma largura de ~200 pixels *antes* de inseri-lo no Outlook.</p>
+                             <p class="text-gray-600">Clique novamente sobre o logo inserido no editor de assinatura. Verifique as opções de tamanho e certifique-se de ter selecionado "Grande" (ou um tamanho adequado, aprox. 150-200px de largura) e <strong class="text-red-600">NÃO</strong> "Tamanho Original". Se as opções de tamanho não aparecerem ou não funcionarem bem, pode ser mais seguro redimensionar o arquivo PNG em um editor de imagens simples (como Paint, Preview, etc.) para uma largura de ~200 pixels <strong>antes</strong> de inseri-lo no Outlook.</p>
                          </div>
                      </div>
 
@@ -301,13 +490,13 @@
                              <p class="text-gray-600">A recomendação é colocar o logo comemorativo ao final da sua assinatura, logo abaixo das suas informações de contato (nome, cargo, telefone, links de redes sociais).</p>
                          </div>
                      </div>
-                 </div>
-             </div>
+                </div>
+            </div>
         </section>
 
-        <!-- Rodapé -->
+        <!-- Rodapé Atualizado -->
         <footer class="text-center text-gray-500 text-sm pt-8 pb-6 border-t border-gray-200">
-            <p>Pacto Global da ONU - Rede Brasil</p>
+            <p>Pacto Global - Rede Brasil</p>
         </footer>
     </div>
 
