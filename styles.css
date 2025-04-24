@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Opcional: Se precisar de uma fonte mono específica */
+.font-geist-mono {
+    font-family: 'SF Mono', SFMono-Regular, ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    background-color: #f9fafb; /* bg-gray-50 */
+    color: #111827; /* text-gray-900 */
+}
+
+/* Estilos das Abas */
+#platform-tabs button {
+    position: relative;
+    border-color: transparent;
+    color: #4b5563; /* text-gray-600 */
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+/* Cor da aba ativa - Usando a cor primária da marca */
+#platform-tabs button.active {
+    border-color: #1E3250; /* pacto-blue */
+    color: #1E3250; /* pacto-blue */
+    font-weight: 600;
+}
+
+/* Hover em abas não ativas */
+#platform-tabs button:hover:not(.active) {
+    border-color: #d1d5db; /* border-gray-300 */
+    color: #1f2937; /* text-gray-800 */
+}
+
+/* Estilos do FAQ */
+.faq-item button[aria-expanded="true"] .faq-icon {
+    transform: rotate(180deg);
+}
+.faq-item button .faq-icon {
+    transition: transform 0.3s ease;
+}
+.faq-answer {
+    overflow: hidden;
+    transition: max-height 0.3s ease-out; /* Efeito suave ao abrir/fechar */
+}
+.faq-answer.hidden {
+   max-height: 0; /* Necessário para a transição */
+   /* 'display: none' é adicionado/removido pelo JS, mas max-height controla a animação */
+}
+
+
+/* Melhorias gerais */
+.rounded-lg img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Melhorando a acessibilidade de foco */
+a:focus, button:focus, input:focus {
+    outline: 2px solid #699CC6; /* pacto-blue-light */
+    outline-offset: 2px;
+    box-shadow: 0 0 0 3px rgba(105, 156, 198, 0.3); /* Sombra suave no foco */
+    border-radius: 4px; /* Arredondar o contorno do foco */
+}
+
+/* Garantindo bom contraste */
+.text-gray-600 {
+    color: #4b5563;
+}
+.text-gray-700 {
+    color: #374151;
+}
+
+/* Estilos específicos para spans de código/menu */
+.bg-gray-100 {
+    background-color: #f3f4f6;
+    border: 1px solid #e5e7eb;
+}
+
+/* Estilos para elementos de destaque (âmbar/amarelo transformados) */
+.bg-amber-100 {
+    background-color: #fef3c7; /* Cor amarela clara */
+}
+.text-amber-900 {
+    color: #78350f; /* Cor âmbar escura */
+}
+.bg-yellow-50 {
+    background-color: #fffbeb;
+}
+.border-yellow-300 {
+    border-color: #fcd34d;
+}
+.text-yellow-800 {
+    color: #92400e;
+}
+.text-yellow-700 {
+    color: #b45309;
+}
+.text-yellow-500 {
+    color: #f59e0b;
+}
+
+/* Ajustes Responsivos */
+@media (max-width: 768px) {
+    h1.text-4xl {
+        font-size: 2.25rem; /* 36px */
+        line-height: 2.5rem; /* 40px */
+    }
+    
+    #platform-tabs button {
+        padding: 0.75rem 0.5rem; /* Menos padding lateral */
+        font-size: 0.875rem; /* Texto ligeiramente menor */
+    }
+    
+    #platform-tabs button i {
+        margin-bottom: 0.1rem; /* Menos espaço abaixo do ícone */
+        width: 1.1rem; /* Ícones ligeiramente menores */
+        height: 1.1rem;
+    }
+    
+    .ml-11 { /* Reduzir a indentação em telas menores */
+      margin-left: 1.5rem; /* Era 2.75rem */
+    }
+
+    .text-lg {
+        font-size: 1rem; /* Reduzir texto de parágrafo */
+    }
+}
